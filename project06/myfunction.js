@@ -31,6 +31,8 @@
  });
 
 $(".ui-main-second-part div").hide();
+$(".ui-main-second-part div:first").show();
+$("#items").addClass("current");
 $(".ui-main-second-item").each(function(index){
     $(this).click(function(){
 	     $(".ui-main-second-item").removeClass("current");
