@@ -10,8 +10,9 @@
 }
 
 .ui-main-first {
-	width: 800px;
-	height: 80px;
+	box-sizing: border-box;
+	width: 802px;
+	height: 91px;
 	border-top-left-radius: 5px;
 	box-sizing: border-box;	
 	display: flex;
@@ -19,7 +20,7 @@
 }
 
 .ui-main-first-item1 {
-	width: 800px;
+	width: 802px;
 	height: 20px;
 	display: flex;
 }
@@ -29,29 +30,32 @@
 	height: 20px;
 	border-top-left-radius: 5px;
 	color: white;
-	text-align: center;
 	font-weight: bold; 
 	background: linear-gradient(rgb(45,147, 204), rgb(69,158,207));
+	display: flex;
+	justify-content: space-around;
 }
 
 .ui-main-first-item1-2 {
 	width: 18px;
 	height: 18px;
 	margin-left: 5px;
-	text-align: center;
 	font-weight: bold;
 	color:  white;
 	background-color: rgb(254,87,10);
 	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .ui-main-first-item2 {
-	width: 800px;
-	height: 41px;
+	box-sizing: border-box;
+	width: 802px;
+	height: 49px;
+	padding: 2px;
 	border-top: 5px solid rgb(69,158,207);
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
 	background: linear-gradient(rgb(253,253,253), rgb(243,243,243));
 	display: flex;
 	flex-wrap: wrap;
@@ -63,17 +67,23 @@
 	display: flex;
 }
 
+ i.fa.fa-long-arrow-right {
+	color: red;
+}
+
 .ui-main-first-item2-1 p {
 	width: 80px;
 	height: 20px;
 	margin: 0px;
 	margin-left: 5px;
 	color: red;
+	font-size: 16px;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item2-2 {
-	width: 640px;
+	width: 630px;
 	height: 20px;
 	display: flex;
 }
@@ -86,6 +96,7 @@
 	margin-left: 10px;
 	color: red;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item2-3 {
@@ -102,6 +113,7 @@
 	margin-left: 10px;
 	color: red;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item2-4 {
@@ -116,6 +128,7 @@
 	margin-left: 10px;
 	color: red;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item2-5 {
@@ -130,6 +143,7 @@
 	margin-left: 10px;
 	color: red;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item2-6 {
@@ -144,14 +158,14 @@
 	margin-left: 10px;
 	color: black;
 	font-weight: bold;
+	display: flex;
 }
 
 .ui-main-first-item3 {
-	width: 800px;
-	height: 20px;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
+	box-sizing: border-box;
+	width: 802px;
+	height: 22px;
+	border: 1px solid gray;
 	background-color: rgb(255, 251, 222);
 	display: flex;
 }
@@ -168,61 +182,72 @@
 	text-decoration: underline;
 	text-align: center;
 	margin: 0px;
+	display: flex;
 }
 
 .ui-main-second {
-	width: 800px;
-	height: 231px;
+	width: 802px;
 	box-sizing: border-box;	
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 }
 
 .ui-main-second-item1 {
-	width: 800px;
-	height: 20px;
+	box-sizing: border-box;
+	width: 802px;
+	height: 25px;
 	border-top: 5px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 	display: flex;
 }
 
 .ui-main-second-item1-1 {
+	box-sizing: border-box;
 	width: 400px;
 	height: 20px;
 	background-color: rgb(206,220,232);
-	box-sizing: border-box;
 	color: gray;
-	text-align: center;
-	border-left: 1px solid white;
 	border-right: 1px solid white;
-	border-bottom: 1px solid white;
+	display: flex;
+	justify-content: space-around;
 }
 
 .ui-main-second-item1-2 {
+	box-sizing: border-box;
 	width: 100px;
 	height: 20px;
-	box-sizing: border-box;
 	background-color: rgb(206,220,232);
 	color: gray;
-	text-align: center;
 	border-right: 1px solid white;
-	border-bottom: 1px solid white;
+	display: flex;
+	justify-content: space-around;
 }
 
 .ui-main-second-item2 {
-	width: 799px;
-	height: 40px;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
+	box-sizing: border-box;
+	width: 802px;
+	height: 42px;
+	border: 1px solid gray;
 	background-color: rgb(242,242,242);
 	display: flex;
 }
 
-.ui-main-second-item2-1 {
-	width: 300px;
+.ui-main-second-item2-4 {
+	width: 90px;
 	height: 40px;
-	padding-left: 100px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+i.fa.fa-cloud {
+	color: rgb(45,147,204);
+}
+
+.ui-main-second-item2-1 {
+	width: 310px;
+	height: 40px;
 	padding-top: 10px;
 	font-weight: bold;
 	display: flex;
@@ -234,13 +259,16 @@
 	height: 14px;
 	border: 1px solid white;
 	background: linear-gradient(rgb(100,200,253), rgb(45,100, 204));
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .ui-main-second-item2-2 {
 	width: 100px;
 	height: 40px;
-	text-align: center;
 	line-height: 40px;
+	display: flex;
+	flex-direction: column;
 }
 
 .ui-main-second-item2-3 {
@@ -260,7 +288,7 @@
 }
 
 .ui-main-second-item3 {
-	width: 800px;
+	width: 802px;
 	height: 40px;
 	display: flex;
 }
@@ -270,7 +298,6 @@
 	height: 40px;
 	display: flex;
 	flex-wrap: wrap;
-	border-bottom: 1px solid gray;
 }
 
 .ui-main-second-item3-1 p {
@@ -281,24 +308,24 @@
 }
 
 .ui-main-second-item3-2 {
-	width: 4px;
+	box-sizing: border-box;
+	width: 8px;
 	height: 40px;
 	border-left: 2px solid rgb(209,230,237);
 	border-right: 2px solid rgb(209,230,237);
 	background: linear-gradient(rgb(209,230,237) 30%, white 30%); 
 	background-size: 100% 15px;
-	border-bottom: 1px solid gray;
 }
 
 .ui-main-second-item3-3 {
-	width: 274px;
-	height: 30px;
+	box-sizing: border-box;
+	width: 292px;
+	height: 40px;
 	padding-top: 10px;
 	padding-left: 20px;
 	display: flex;
 	justify-content: flex-start;
 	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
 }
 
 .ui-main-second-item3-3 p {
@@ -326,7 +353,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
 }
 
 .ui-main-second-item3-4 p {
@@ -354,7 +380,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
 }
 
 .ui-main-second-item3-5 p{
@@ -365,8 +390,11 @@
 }
 
 .rect2 {
-	width: 13px;
-	height: 13px;
+	box-sizing: border-box;
+	width: 12px;
+	height: 12px;
+	margin-top: 5px;
+	margin-right: 5px;
 	border: 2px solid rgb(45, 100, 200);
 	background: white;
 }
@@ -409,4 +437,12 @@
 	font-weight: bold;
 	display: flex;
 	justify-content: flex-start;
+}
+
+i.fa.fa-car {
+	color: rgb(45,147,204);
+}
+
+i.fa.fa-bus {
+	color: green;
 }
