@@ -124,30 +124,32 @@
 	box-sizing: border-box;
 	width: 370px;
 	height: 20px;
-	padding: 1px;
+	padding: 2px;
 	border: 1px solid black;
 	color: rgb(247, 38, 86);
 	font-weight: bold;
 	font-size: 14px;
 	align-items: center;
+	display: flex;
 }
 
 .ui-main1-second-item2 {
 	box-sizing: border-box;
 	width: 370px;
 	height: 20px;
-	padding: 1px;
+	padding: 2px;
 	border: 1px solid black;
 	font-weight: bold;
 	font-size: 14px;
 	align-items: center;
+	display: flex;
 }
 
 .ui-main1-second-item3 {
 	box-sizing: border-box;
 	width: 370px;
 	height: 30px;
-	padding: 1px;
+	padding: 2px;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: row;
