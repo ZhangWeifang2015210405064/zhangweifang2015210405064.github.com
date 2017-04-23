@@ -2,6 +2,7 @@
 .ui-main {
 	position: absolute;
 	text-align: center;
+	background-color: rgba(51,51,51,0.5);
 	/* top: 30px;
 	left:300px;  */
 }
@@ -107,4 +108,12 @@
 	line-height: 30px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.ui-main-second-part-1 {
+	color: gray;
+	font-size: 300px;
+	font-weight: bolder;
+	display: flex;
+	justify-content: space-around;
 }

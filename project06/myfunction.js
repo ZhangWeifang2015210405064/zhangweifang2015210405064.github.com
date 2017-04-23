@@ -1,6 +1,6 @@
 
  $('#img.min').click(function() {
- 	$(".ui-main").css({
+ 	$(".ui-main").animate({
  		'width' : "100%",
  		'height' : "100%"
  	});	
@@ -10,8 +10,9 @@
  	var txt = $(this).attr('src');
  	$("#img-0").attr({
  		'src' : txt,
- 		'width' : "800px",
- 		'height' : "600px"
+ 		'width' : "600px",
+ 		'height' : "400px",
+ 		"border" : "10px solid white"
  	});	
  });
 
@@ -26,7 +27,7 @@
  $('.ui-main').click(function() {
  	$(".ui-main").css({
  		'width' : "0",
- 		'height' : "0"
+ 		'height' : "0",
  	});
  });
 
