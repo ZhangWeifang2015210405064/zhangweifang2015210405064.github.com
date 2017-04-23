@@ -90,13 +90,12 @@
 
 
 .ui-main-first-item2-2 p {
-	width: 60px;
+	width: 100px;
 	height: 20px;
 	margin: 0px;
 	margin-left: 10px;
 	color: red;
 	font-weight: bold;
-	display: flex;
 }
 
 .ui-main-first-item2-3 {
@@ -445,4 +444,8 @@ i.fa.fa-car {
 
 i.fa.fa-bus {
 	color: green;
+}
+
+#second-item2 {
+	border-top: 0px;
 }
