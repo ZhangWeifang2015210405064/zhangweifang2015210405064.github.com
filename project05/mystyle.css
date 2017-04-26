@@ -390,12 +390,19 @@ i.fa.fa-cloud {
 
 .rect2 {
 	box-sizing: border-box;
-	width: 12px;
-	height: 12px;
-	margin-top: 5px;
+	width: 14px;
+	height: 14px;
+	padding: 2px;
+	margin-top: 3px;
 	margin-right: 5px;
-	border: 2px solid rgb(45, 100, 200);
-	background: white;
+	background: linear-gradient(rgb(100,200,253), rgb(45,100, 204));
+	display: flex;
+}
+
+.rect3 {
+	width: 10px;
+	height: 10px;
+	background-color: white;
 }
 
 .ui-main-second-item2-1 p {
